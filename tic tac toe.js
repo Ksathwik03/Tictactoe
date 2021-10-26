@@ -73,7 +73,7 @@ function checkWinner(board) {
       return board[i];
     }
   }
-  if (areequal(board[0], board[4], board[7]) && board[0] != VOID) {
+  if (areequal(board[0], board[4], board[8]) && board[0] != VOID) {
     return board[0];
   }
   if (areequal(board[2], board[4], board[6]) && board[2] != VOID) {
